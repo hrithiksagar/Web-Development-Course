@@ -61,3 +61,6 @@ Boolean Attributes:
 required property makes the input field mandatory, without this user cannot submit form until he fill all
 
 <input type="text" disabled>
+
+
+General Purpose Attributes:
