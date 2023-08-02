@@ -1,0 +1,63 @@
+Notes of the course:
+link: https://youtube.com/playlist?list=PLfqMhTWNBTe3H6c9OGXb5_6wcc1Mca52n
+Steps:
+
+1. websites structure
+2. design
+3. Server for data
+4. Sever side language for linking front end and server side
+5. Payment gateway
+
+- by Yash, Apna College
+  - Google Summer of code
+
+How a website works?
+    - HTML - Body works as a skeleton - which relates to HTML
+    - CSS  - uses Javascript language to create frontend - like a skin
+    - DBMS - to store data, located inside server -  to access this we use server side language - now works like a Brain
+    - We name it now like www.sssss.com
+
+Video 2:
+Website structure
+using html - which is Abcd of web development
+hyper text markup language
+using tags we instruct browser and it shows that
+what are elements and tags?
+
+1. Elements -  individual components of document  which has its own meaning
+2. Tags -  opening and closing tags
+   `<tagName>` opening
+   `</tagname>` closing
+
+Syntax iof elements
+`<tagname>` "Elements" `</tagname>`
+
+some elements dont need closing tag:
+like Images:
+    `<img src="imagepath.jpg">`
+or Links:
+    `<a href="#">`Link Text`</a>`
+
+Nesting of elements:
+
+using an element inside an element
+
+<p> 
+my name is 
+<b> Hrithik </b>
+</p>
+
+Attributes:
+<h1 style="color:blue"> Welcome </h1>
+
+every elements can have additional properties like image length and breadth
+syntax:
+<tagName attributeName="Attribute Value">
+
+<p align="left"> text </p>
+
+Boolean Attributes:
+<input type="text" required>
+required property makes the input field mandatory, without this user cannot submit form until he fill all
+
+<input type="text" disabled>
