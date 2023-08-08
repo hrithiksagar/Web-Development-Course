@@ -117,4 +117,9 @@ ID can be used in Class also
 <!DOCTYPE html>
 html is a root element
 
+Moving out of folder:
+../           - out of 1 folders
+../../        - out of 2 folders
+../../../     - Out of 3 folders
+
 
