@@ -11,4 +11,75 @@ text-align: center
 2. external - 
 3. internal - using a tag inside html tag using selectors, 
 
+
+lets learn external css here:-
+here we make a whole css file and make a link tag and link it
 */
+
+
+/* this will style all h3 tags inside a html file */
+h3{
+    color: blue;
+}
+
+
+/* Selectors:
+can change muliple tags at a time 
+*/
+
+h1,p,soan{
+    color: aqua;
+}
+
+
+/* Type Selector */
+h1{
+    property:value
+}
+
+/* class selector */
+
+.className{
+    property: value
+}
+
+/* id selector 
+same as classname 
+*/
+
+/* 
+Attribute Selector*/
+a[href=""]{
+    property: Value
+}
+
+/* 
+psudo selector;
+group of selector
+use to style states of element
+like mouse hover
+anker tag like visited 
+*/
+selector: pseudo-class{
+    proerty- Value
+}
+
+/* 
+Pseudo Element selector
+can sleect any part of any element
+*/
+p::first-line{
+    color: azure;
+}
+
+/* Combinator selector: can select any element along with its child */
+
+article>p{
+    property: Value
+}
+
+
+/*  Universal Selectoe: can select all elements by using * */
+*{
+    property:Value
+}

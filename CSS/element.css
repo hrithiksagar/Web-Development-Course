@@ -1,0 +1,37 @@
+p{
+    color: aquamarine;
+}
+
+a{
+    color: aquamarine;
+}
+
+li{
+    list-style-type: none; /* this will remove bullet points */
+}
+
+.special{
+    color: orange;
+    font-weight: bold;
+}
+
+span.special, li.special{
+    color: maroon;
+    font-weight: bold;
+}
+/* Descendant Combinator */
+li em{
+    color: darkgray;
+}
+/* Adjacent Combinator */
+/* THis will only work if there is no element or tag written in between H1 and P, this works when H1 and P are written immedetialy */
+h1+p{
+    font-size: 200%;
+}
+
+/* Pseudo Class Selector */
+/* this will allow text to highlight when a mouse hovers on it */
+a:hover{
+    color: cornflowerblue;
+    text-decoration: none;
+}
