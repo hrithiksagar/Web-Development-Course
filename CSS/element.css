@@ -40,4 +40,20 @@ a:hover{
 ui{
     color: cornflowerblue;
 }
+/* Class Selector */
+body h1+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
 
+/* ID Selector */
+#heading{
+    color: red;
+    background-color: black;
+}
+
+p#one{
+    color: brown;
+    
+}
