@@ -1,0 +1,13 @@
+li[class]{
+    font-size: 150%;
+}
+
+li[class="a"]{
+    color: royalblue;
+}
+
+li[class~="a"]{
+    color: aqua;
+}
+/* Everything selector or Universal selector */
+
