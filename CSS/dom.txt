@@ -27,7 +27,7 @@ Load HTMl -> Parse HTMl -> Create DOM Tree -> Display
 % - relative to parent element
 em - wrt font size - 2em = 2(size of element)
 rem - font size of root
-vh - wrt 1% of width of viewport
+vh - wrt 1% of width of viewport (Viewport = Window of browser(Browser Size))
 vm - wrt 1% of height of viewport
 vmin - 1% of viewport's small dimension
 vmax - 1% of viewport's Large dimension
@@ -42,4 +42,7 @@ pc - picas - (1pc = 12 pt)
 
 www.codepen.io - tool to write code which shows output right away and can share it diretly
 
-
+Box Model:
+eveyr element is sorrunded with a Box
+ padding is transparent
+ 
