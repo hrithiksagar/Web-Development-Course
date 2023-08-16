@@ -1,0 +1,7 @@
+Cascade:
+CSS rules order.
+latest styling will override previous one
+
+
+specificity:
+selectors, ranking
