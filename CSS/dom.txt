@@ -1,0 +1,45 @@
+what is DOM?
+Html will get converted to DOM when it is sent to server
+- tree like structure
+like this below tree:
+
+                Parent
+
+    Child       Child       Child
+
+                Sibling
+
+this will help to design, debug
+
+
+this dom will go to computer memory
+fetch CSS and HTML, like videos images javascrip
+javascrip loads in the last 
+Fetching:
+- CSS --> Media --> javascrip
+Load HTMl -> Parse HTMl -> Create DOM Tree -> Display
+                \|/           /|\ - Attach style to DOM nodes
+            Load CSS ->     Parse CSS
+
+
+- UNITS in CSS:
+"Relative":  dependent on browser size
+% - relative to parent element
+em - wrt font size - 2em = 2(size of element)
+rem - font size of root
+vh - wrt 1% of width of viewport
+vm - wrt 1% of height of viewport
+vmin - 1% of viewport's small dimension
+vmax - 1% of viewport's Large dimension
+
+
+"Absolute": Value is fixed 
+cm - 1cm = 96px
+mm - millimeter
+px - inches - 2.54 cm
+pt - points - 1/72 inches
+pc - picas - (1pc = 12 pt)
+
+www.codepen.io - tool to write code which shows output right away and can share it diretly
+
+
